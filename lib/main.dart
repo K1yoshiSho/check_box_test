@@ -162,7 +162,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         max: 1000,
                         onChanged: (value) => _sliderValue.add(value),
                         divisions: 1000,
-                        label: "$duration ms",
+                        label: "${duration.toInt()} ms",
                       ),
                       Text("Скорость анимации: ${duration.toInt()} ms")
                     ],
