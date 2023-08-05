@@ -1,6 +1,7 @@
 import 'package:check_box/src/utils/colors.dart';
 import 'package:flutter/material.dart';
 
+/// [CheckBoxComponent] is a custom checkbox component.
 class CheckBoxComponent extends StatefulWidget {
   final bool value;
   final ColorsEnum enumColor;

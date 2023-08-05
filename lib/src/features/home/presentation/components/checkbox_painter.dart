@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// [CheckBoxPainter] is a custom painter that draws the check box
 class CheckBoxPainter extends CustomPainter {
   final Animation<double> animation;
   final Color color;

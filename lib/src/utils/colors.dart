@@ -1,18 +1,17 @@
 import 'package:flutter/material.dart';
 
+/// [ColorsEnum] - enum for colors.
 enum ColorsEnum {
   red,
   green,
   blue,
 }
 
+/// [getColorFromEnum] - returns color from enum.
 Color getColorFromEnum(ColorsEnum color) {
-  switch (color) {
-    case ColorsEnum.red:
-      return Colors.red;
-    case ColorsEnum.green:
-      return Colors.green;
-    case ColorsEnum.blue:
-      return Colors.blue;
-  }
+  return switch (color) {
+    ColorsEnum.red => Colors.red,
+    ColorsEnum.green => Colors.green,
+    ColorsEnum.blue => Colors.blue,
+  };
 }

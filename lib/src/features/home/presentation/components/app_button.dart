@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+/// [AppButton] is a common custom button component.
 class AppButton extends StatelessWidget {
   final Function() onPressed;
   final String title;
